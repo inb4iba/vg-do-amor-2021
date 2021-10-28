@@ -1,0 +1,18 @@
+.heroWrapper {
+  width: 100%;
+  padding: 5em 3em;
+  display: grid;
+  grid-template-columns: 0.75fr 1fr;
+  align-items: center;
+  margin-top: 5rem;
+
+  .logo {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 900;
+  }
+
+  .description {
+    text-align: end;
+  }
+}

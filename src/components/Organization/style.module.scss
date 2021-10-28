@@ -1,0 +1,19 @@
+.organizationWrapper {
+  padding: 1rem;
+  width: 100%;
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .cardsWrapper {
+    display: flex;
+    gap: 0.5rem;
+  }
+}
+
+.card {
+  padding: 1rem;
+  border: 2px solid #121214;
+  border-radius: 0.5rem;
+}

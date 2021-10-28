@@ -1,0 +1,11 @@
+.supportWrapper {
+  padding: 2rem;
+  background: pink;
+
+  ::before {
+    content: "";
+    display: block;
+    height: 7rem; /* fixed header height*/
+    margin: -7rem 0 0; /* negative fixed header height */
+  }
+}
