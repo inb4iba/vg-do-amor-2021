@@ -8,12 +8,7 @@
 
   .cardsWrapper {
     display: flex;
-    gap: 0.5rem;
+    gap: 2rem;
+    margin-top: 1rem;
   }
-}
-
-.card {
-  padding: 1rem;
-  border: 2px solid #121214;
-  border-radius: 0.5rem;
 }

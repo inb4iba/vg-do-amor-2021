@@ -1,0 +1,9 @@
+.listCardWrapper {
+  padding: 1rem;
+  border: 2px solid #343434;
+  border-radius: 0.5rem;
+
+  + .listCardWrapper {
+    margin-top: 0.5rem;
+  }
+}

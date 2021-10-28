@@ -12,13 +12,3 @@
     margin: -6rem 0 0; /* negative fixed header height */
   }
 }
-
-.card {
-  padding: 1rem;
-  border: 2px solid #343434;
-  border-radius: 0.5rem;
-
-  + .card {
-    margin-top: 0.5rem;
-  }
-}
