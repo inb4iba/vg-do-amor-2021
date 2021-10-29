@@ -1,4 +1,4 @@
-import { LinksType, PersonType } from "../../../utils/organization";
+import { LinksType, PersonType } from "../../../utils/types";
 import style from "./style.module.scss";
 import {
   RiInstagramFill,

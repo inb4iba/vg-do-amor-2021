@@ -1,18 +1,3 @@
-export type LinksType = {
-  instagram?: string;
-  twitter?: string;
-  github?: string;
-  site?: string;
-  twitch?: string;
-};
-
-export type PersonType = {
-  name: string;
-  avatar_url: string;
-  description: string;
-  links?: LinksType;
-};
-
 export const organization = [
   {
     name: "Icaro Andrade",
@@ -33,7 +18,7 @@ export const organization = [
     links: {
       instagram: "https://www.instagram.com/josie_fonseca/",
       twitter: "https://twitter.com/josie_fonseca",
-      twitch: "https://twitch.tv/vertentegeek"
+      twitch: "https://twitch.tv/vertentegeek",
     },
   },
 ];

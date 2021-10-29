@@ -3,12 +3,33 @@
 
   h3 {
     font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
-  ::before {
+  &::before {
     content: "";
     display: block;
-    height: 6rem; /* fixed header height*/
-    margin: -6rem 0 0; /* negative fixed header height */
+    height: 7rem; /* fixed header height*/
+    margin: -7rem 0 0; /* negative fixed header height */
+  }
+
+  .eventsWrapper {
+    height: 20rem;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px #ffffff35, -4px -4px 3px #0002;
+
+    &::-webkit-scrollbar {
+      width: 18px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #ff0f43;
+      border-right: 12px transparent solid;
+      background-clip: padding-box;
+      border-radius: 0.5rem;
+    }
   }
 }
