@@ -1,5 +1,6 @@
-import { EventsType } from "../../../utils/types";
+import { EventsType, LinksType } from "../../../utils/types";
 import style from "./style.module.scss";
+import avatar from "../../../assets/nullAvatar.svg";
 import {
   RiInstagramFill,
   RiTwitterFill,
@@ -14,23 +15,51 @@ type PropsType = {
 
 export function ListCard({ event }: PropsType) {
   return (
-    <div className={style.listCardWrapper}>
+    <div
+      className={`${style.listCardWrapper} ${!event.title ? style.empty : ""}`}
+    >
       <div className={style.eventInfo}>
         <div className={style.timeWrapper}>
           <p className={style.date}>{event.date}</p>
           <p className={style.time}>{event.time}</p>
         </div>
-        <p className={style.title}>{event.title}</p>
+        <p className={style.title}>{event.title || "DATA DISPONÍVEL"}</p>
       </div>
       <div className={style.speakers}>
         {event.speakers.map((person) => {
           return (
-            <img
-              key={person.name}
-              className={style.avatar}
-              src={person.avatar_url}
-              alt={person.name}
-            />
+            <div className={style.speaker}>
+              <img
+                key={person.name}
+                className={style.avatar}
+                src={person.avatar_url || avatar}
+                alt={person.name || "avatar sem imagem"}
+              />
+              {person.name && person.links && (
+                <div className={style.socials}>
+                  {Object.keys(person.links).map((linkName: string) => (
+                    <p key={linkName}>
+                      <a
+                        className={style.link}
+                        href={
+                          (person.links as LinksType)[
+                            linkName as keyof LinksType
+                          ]
+                        }
+                      >
+                        {linkName === "instagram" && (
+                          <RiInstagramFill size={30} />
+                        )}
+                        {linkName === "twitter" && <RiTwitterFill size={30} />}
+                        {linkName === "github" && <RiGithubFill size={30} />}
+                        {linkName === "twitch" && <RiTwitchFill size={30} />}
+                        {linkName === "site" && <IoGlobeOutline size={30} />}
+                      </a>
+                    </p>
+                  ))}
+                </div>
+              )}
+            </div>
           );
         })}
       </div>

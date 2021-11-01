@@ -1,14 +1,25 @@
 .organizationWrapper {
-  padding: 1rem;
-  width: 100%;
+  padding: 5rem 0;
+  width: 100vw;
+  background: #ff0f43;
+  color: #f1e1e1;
+  transform: translateX(calc((100vw - 1200px) / 2 * -1));
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1200px;
 
   h3 {
     font-size: 2rem;
+    font-weight: 800;
   }
 
   .cardsWrapper {
     display: flex;
     gap: 2rem;
     margin-top: 1rem;
+    color: #ff0f43;
   }
 }

@@ -1,20 +1,20 @@
 .scheduleWrapper {
-  padding: 1rem;
+  padding: 5rem 1rem;
+  position: relative;
 
   h3 {
     font-size: 2rem;
+    font-weight: 800;
     margin-bottom: 1rem;
   }
 
-  &::before {
-    content: "";
-    display: block;
-    height: 7rem; /* fixed header height*/
-    margin: -7rem 0 0; /* negative fixed header height */
+  .anchor {
+    position: absolute;
+    top: -4.9rem;
   }
 
   .eventsWrapper {
-    height: 20rem;
+    height: 35rem;
     overflow: scroll;
     overflow-x: hidden;
     padding: 1rem;

@@ -7,13 +7,8 @@ export const events = [
       {
         name: "Mestre Xis",
         avatar_url:
-          "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        description: "Também conhecido como Famoso Iba, bla bla bla.",
-        links: {
-          instagram: "https://www.instagram.com/inb4iba/",
-          twitter: "https://twitter.com/inb4iba",
-          github: "https://github.com/inb4iba",
-        },
+          "https://pbs.twimg.com/profile_images/1356066597274836999/GCZ9UCIy_400x400.jpg",
+        links: {},
       },
     ],
   },
@@ -26,11 +21,9 @@ export const events = [
         name: "Icaro Andrade",
         avatar_url:
           "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        description: "Também conhecido como Famoso Iba, bla bla bla.",
         links: {
-          instagram: "https://www.instagram.com/inb4iba/",
+          twitch: "https://www.twitch.tv/vertentegeek/",
           twitter: "https://twitter.com/inb4iba",
-          github: "https://github.com/inb4iba",
         },
       },
     ],
@@ -43,229 +36,160 @@ export const events = [
       {
         name: "Ray Galvão",
         avatar_url:
-          "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        description: "Também conhecido como Famoso Iba, bla bla bla.",
-        links: {
-          instagram: "https://www.instagram.com/inb4iba/",
-          twitter: "https://twitter.com/inb4iba",
-          github: "https://github.com/inb4iba",
-        },
+          "https://pbs.twimg.com/profile_images/1445468705920483335/YJQNUJ9W_400x400.jpg",
+        links: {},
       },
     ],
   },
   {
-    title: "Dicas básicas para entender e usar o Roll20.",
+    title: "",
     date: "09/11",
     time: "09h",
     speakers: [
       {
-        name: "Mestre Xis",
-        avatar_url:
-          "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        description: "Também conhecido como Famoso Iba, bla bla bla.",
-        links: {
-          instagram: "https://www.instagram.com/inb4iba/",
-          twitter: "https://twitter.com/inb4iba",
-          github: "https://github.com/inb4iba",
-        },
+        name: "",
+        avatar_url: "",
+        links: {},
       },
     ],
   },
   {
-    title: "O que precisa para streamar RPG?",
+    title: "-----",
     date: "09/11",
     time: "14h",
     speakers: [
       {
-        name: "Icaro Andrade",
+        name: "Mônica de Faria",
         avatar_url:
-          "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        description: "Também conhecido como Famoso Iba, bla bla bla.",
-        links: {
-          instagram: "https://www.instagram.com/inb4iba/",
-          twitter: "https://twitter.com/inb4iba",
-          github: "https://github.com/inb4iba",
-        },
+          "https://pbs.twimg.com/profile_images/1451919788465430528/iX9d7qPo_400x400.jpg",
+        links: {},
       },
     ],
   },
   {
-    title: "Narrando sem apoio visual.",
+    title: "Linguagem e política no RPG.",
     date: "09/11",
     time: "19h",
     speakers: [
       {
-        name: "Ray Galvão",
+        name: "Luiza Ferreira",
         avatar_url:
-          "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        description: "Também conhecido como Famoso Iba, bla bla bla.",
-        links: {
-          instagram: "https://www.instagram.com/inb4iba/",
-          twitter: "https://twitter.com/inb4iba",
-          github: "https://github.com/inb4iba",
-        },
+          "https://pbs.twimg.com/profile_images/1443023315895996418/S_dbpPzS_400x400.jpg",
+        links: {},
       },
     ],
   },
   {
-    title: "Dicas básicas para entender e usar o Roll20.",
+    title: "",
     date: "10/11",
     time: "09h",
     speakers: [
       {
-        name: "Mestre Xis",
-        avatar_url:
-          "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        description: "Também conhecido como Famoso Iba, bla bla bla.",
-        links: {
-          instagram: "https://www.instagram.com/inb4iba/",
-          twitter: "https://twitter.com/inb4iba",
-          github: "https://github.com/inb4iba",
-        },
+        name: "",
+        avatar_url: "",
+        description: "",
+        links: {},
       },
     ],
   },
   {
-    title: "O que precisa para streamar RPG?",
+    title: "-----",
     date: "10/11",
     time: "14h",
     speakers: [
       {
-        name: "Icaro Andrade",
+        name: "Luiz Lindroth",
         avatar_url:
-          "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        description: "Também conhecido como Famoso Iba, bla bla bla.",
-        links: {
-          instagram: "https://www.instagram.com/inb4iba/",
-          twitter: "https://twitter.com/inb4iba",
-          github: "https://github.com/inb4iba",
-        },
+          "https://pbs.twimg.com/profile_images/1450205546100011013/BXOVayYX_400x400.jpg",
+        links: {},
       },
     ],
   },
   {
-    title: "Narrando sem apoio visual.",
+    title: "",
     date: "10/11",
     time: "19h",
     speakers: [
       {
-        name: "Ray Galvão",
-        avatar_url:
-          "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        description: "Também conhecido como Famoso Iba, bla bla bla.",
-        links: {
-          instagram: "https://www.instagram.com/inb4iba/",
-          twitter: "https://twitter.com/inb4iba",
-          github: "https://github.com/inb4iba",
-        },
+        name: "",
+        avatar_url: "",
+        links: {},
       },
     ],
   },
   {
-    title: "Dicas básicas para entender e usar o Roll20.",
+    title: "-----",
     date: "11/11",
     time: "09h",
     speakers: [
       {
-        name: "Mestre Xis",
+        name: "Mônica de Faria",
         avatar_url:
-          "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        description: "Também conhecido como Famoso Iba, bla bla bla.",
-        links: {
-          instagram: "https://www.instagram.com/inb4iba/",
-          twitter: "https://twitter.com/inb4iba",
-          github: "https://github.com/inb4iba",
-        },
+          "https://pbs.twimg.com/profile_images/1451919788465430528/iX9d7qPo_400x400.jpg",
+        links: {},
       },
     ],
   },
   {
-    title: "O que precisa para streamar RPG?",
+    title: "-----",
     date: "11/11",
     time: "14h",
     speakers: [
       {
-        name: "Icaro Andrade",
+        name: "Carlos Vloet",
         avatar_url:
           "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        description: "Também conhecido como Famoso Iba, bla bla bla.",
-        links: {
-          instagram: "https://www.instagram.com/inb4iba/",
-          twitter: "https://twitter.com/inb4iba",
-          github: "https://github.com/inb4iba",
-        },
+        links: {},
       },
     ],
   },
   {
-    title: "Narrando sem apoio visual.",
+    title: "-----",
     date: "11/11",
     time: "19h",
     speakers: [
       {
-        name: "Ray Galvão",
+        name: "Rafael Amon",
         avatar_url:
-          "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        description: "Também conhecido como Famoso Iba, bla bla bla.",
-        links: {
-          instagram: "https://www.instagram.com/inb4iba/",
-          twitter: "https://twitter.com/inb4iba",
-          github: "https://github.com/inb4iba",
-        },
+          "https://pbs.twimg.com/profile_images/1304462415833243648/rW4T5_h6_400x400.jpg",
+        links: {},
       },
     ],
   },
   {
-    title: "Dicas básicas para entender e usar o Roll20.",
+    title: "",
     date: "12/11",
     time: "09h",
     speakers: [
       {
-        name: "Mestre Xis",
-        avatar_url:
-          "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        description: "Também conhecido como Famoso Iba, bla bla bla.",
-        links: {
-          instagram: "https://www.instagram.com/inb4iba/",
-          twitter: "https://twitter.com/inb4iba",
-          github: "https://github.com/inb4iba",
-        },
+        name: "",
+        avatar_url: "",
+        links: {},
       },
     ],
   },
   {
-    title: "O que precisa para streamar RPG?",
+    title: "-----",
     date: "12/11",
     time: "14h",
     speakers: [
       {
-        name: "Icaro Andrade",
+        name: "Thiago Rosa",
         avatar_url:
-          "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        description: "Também conhecido como Famoso Iba, bla bla bla.",
-        links: {
-          instagram: "https://www.instagram.com/inb4iba/",
-          twitter: "https://twitter.com/inb4iba",
-          github: "https://github.com/inb4iba",
-        },
+          "https://pbs.twimg.com/profile_images/1414972367625936899/44B-6pZi_400x400.jpg",
+        links: {},
       },
     ],
   },
   {
-    title: "Narrando sem apoio visual.",
+    title: "",
     date: "12/11",
     time: "19h",
     speakers: [
       {
-        name: "Ray Galvão",
-        avatar_url:
-          "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        description: "Também conhecido como Famoso Iba, bla bla bla.",
-        links: {
-          instagram: "https://www.instagram.com/inb4iba/",
-          twitter: "https://twitter.com/inb4iba",
-          github: "https://github.com/inb4iba",
-        },
+        name: "",
+        avatar_url: "",
+        links: {},
       },
     ],
   },

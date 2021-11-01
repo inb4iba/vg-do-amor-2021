@@ -4,7 +4,10 @@ import style from "./style.module.scss";
 
 export function Schedule() {
   return (
-    <div id="schedule" className={style.scheduleWrapper}>
+    <div className={style.scheduleWrapper}>
+      <a id="schedule" className={style.anchor}>
+        &nbsp;
+      </a>
       <h3>Calendário</h3>
       <div className={style.eventsWrapper}>
         {events.map((event, idx) => (

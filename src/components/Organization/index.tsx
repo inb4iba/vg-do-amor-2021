@@ -5,11 +5,13 @@ import { organization } from "../../utils/organization";
 export function Organization() {
   return (
     <div id="organization" className={style.organizationWrapper}>
-      <h3>Organizadores</h3>
-      <div className={style.cardsWrapper}>
-        {organization.map((person, idx) => (
-          <ProfileCard key={idx} person={person} />
-        ))}
+      <div className={style.container}>
+        <h3>Organizadores</h3>
+        <div className={style.cardsWrapper}>
+          {organization.map((person, idx) => (
+            <ProfileCard key={idx} person={person} />
+          ))}
+        </div>
       </div>
     </div>
   );

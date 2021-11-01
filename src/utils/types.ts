@@ -9,7 +9,7 @@ export type LinksType = {
 export type PersonType = {
   name: string;
   avatar_url: string;
-  description: string;
+  description?: string;
   links?: LinksType;
 };
 

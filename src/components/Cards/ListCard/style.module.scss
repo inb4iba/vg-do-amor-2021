@@ -25,11 +25,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 0.5rem;
 
-    .avatar {
-      width: 5rem;
-      border-radius: 50%;
-      box-shadow: 0 5px 10px #0005;
+    .speaker {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+
+      .avatar {
+        width: 5rem;
+        border-radius: 50%;
+        box-shadow: 0 5px 10px #0005;
+      }
+
+      .socials {
+        display: flex;
+        gap: 0.5rem;
+      }
+
+      .link {
+        color: #ff0f43;
+      }
     }
   }
 }
@@ -46,4 +64,9 @@
     font-size: 2.25rem;
     font-weight: 700;
   }
+}
+
+.empty {
+  background: #131316;
+  color: white;
 }
