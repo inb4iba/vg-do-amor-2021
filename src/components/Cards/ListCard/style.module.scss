@@ -1,68 +1,115 @@
 .listCardWrapper {
-  padding: 1em;
-  border-radius: 1rem;
-  box-shadow: 0 5px 10px #0005;
+  padding: 0.5rem 0.75rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column-reverse;
+  box-shadow: 0 5px 10px #0005;
+  background: #ff0f43;
+  color: #f1e1e1;
 
   + .listCardWrapper {
     margin-top: 1rem;
   }
 
-  .eventInfo {
+  .speaker {
     display: flex;
-    align-items: center;
-    gap: 2rem;
+    padding-bottom: 1rem;
 
-    .title {
-      font-size: 1.6rem;
-      font-weight: 800;
+    .link {
+      color: #f1e1e1;
     }
   }
 
-  .speakers {
+  .avatar {
+    border-radius: 50%;
+    width: 4rem;
+    height: auto;
+  }
+
+  .eventInfo {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
 
-    .speaker {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 0.5rem;
+    .title {
+      font-weight: 600;
+    }
+  }
 
-      .avatar {
-        width: 5rem;
-        border-radius: 50%;
-        box-shadow: 0 5px 10px #0005;
-      }
+  .timeWrapper {
+    margin-right: 1.5rem;
+    .date {
+      font-size: 1rem;
+      font-weight: 600;
+    }
 
-      .socials {
-        display: flex;
-        gap: 0.5rem;
-      }
-
-      .link {
-        color: #ff0f43;
-      }
+    .time {
+      font-size: 1.5rem;
+      font-weight: 800;
     }
   }
 }
 
-.timeWrapper {
-  margin: 0;
+@media (min-width: 30rem) {
+  .listCardWrapper {
+    padding: 1em;
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px #0005;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  .date {
-    font-size: 1.25rem;
-    font-weight: 500;
+    .eventInfo {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+
+      .title {
+        font-size: 1.6rem;
+        font-weight: 800;
+      }
+    }
+
+    .speakers {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+
+      .speaker {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+
+        .avatar {
+          width: 5rem;
+          border-radius: 50%;
+          box-shadow: 0 5px 10px #0005;
+        }
+
+        .socials {
+          display: flex;
+          gap: 0.5rem;
+        }
+
+        .link {
+          color: #ff0f43;
+        }
+      }
+    }
   }
 
-  .time {
-    font-size: 2.25rem;
-    font-weight: 700;
+  .timeWrapper {
+    margin: 0;
+
+    .date {
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
+
+    .time {
+      font-size: 2.25rem;
+      font-weight: 700;
+    }
   }
 }
 

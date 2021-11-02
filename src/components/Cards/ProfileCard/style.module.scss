@@ -1,29 +1,27 @@
 .profileCardWrapper {
-  padding: 1rem;
-  border-radius: 2.5rem;
-  flex: 1;
+  padding: 1rem 0.5rem 0.5rem;
   box-shadow: 0 5px 10px #0005;
   background: #f1e1e1;
 
   .userInfo {
     display: flex;
+    gap: 1rem;
 
     .avatar {
-      width: 8rem;
+      width: 4rem;
+      height: 4rem;
       border-radius: 50%;
-      box-shadow: 0 2px 5px #0005;
     }
 
     .userDetails {
-      padding-left: 1rem;
-
       .name {
-        font-size: 2rem;
-        font-weight: 600;
+        font-size: 1.25rem;
+        font-weight: 700;
+        padding-bottom: 0.5rem;
       }
 
       .description {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
         font-weight: 500;
       }
     }
@@ -31,12 +29,57 @@
 
   .links {
     display: flex;
-    gap: 1rem;
-    padding: 1rem 1rem 0;
+    gap: 0.5rem;
+    padding-top: 1rem;
 
     .link {
       text-decoration: none;
       color: #ff0f43;
+    }
+  }
+}
+
+@media (min-width: 30rem) {
+  .profileCardWrapper {
+    padding: 1rem;
+    border-radius: 2.5rem;
+    flex: 1;
+    box-shadow: 0 5px 10px #0005;
+    background: #f1e1e1;
+
+    .userInfo {
+      display: flex;
+
+      .avatar {
+        width: 8rem;
+        border-radius: 50%;
+        box-shadow: 0 2px 5px #0005;
+      }
+
+      .userDetails {
+        padding-left: 1rem;
+
+        .name {
+          font-size: 2rem;
+          font-weight: 600;
+        }
+
+        .description {
+          font-size: 0.95rem;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .links {
+      display: flex;
+      gap: 1rem;
+      padding: 1rem 1rem 0;
+
+      .link {
+        text-decoration: none;
+        color: #ff0f43;
+      }
     }
   }
 }

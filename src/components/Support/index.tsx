@@ -9,7 +9,7 @@ export function Support() {
       </a>
       <div className={style.container}>
         <h3>
-          Colabore com doações para o{" "}
+          Colabore com doações para{" "}
           <a href="https://www.casaum.org/">
             <img className={style.logo} src={logo} alt="Casa1" />
           </a>

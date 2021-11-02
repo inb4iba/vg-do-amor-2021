@@ -1,196 +1,230 @@
 .heroWrapper {
-  width: 100%;
-  margin-top: 5rem;
-  padding: 5rem 1rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  width: 100vw;
+  padding: 1rem 0.65rem;
 
   .heroHeader {
     display: grid;
-    grid-template-columns: 0.75fr 1fr;
+    grid-template-columns: minmax(0, 1fr);
     align-items: center;
-    padding: 5em 3em;
-    height: 600px;
+    text-align: center;
+    margin-bottom: 3rem;
 
     .logo {
-      text-align: center;
-      font-size: 3.5rem;
       font-weight: 900;
     }
 
     .subtitle {
-      text-align: end;
+      padding-top: 1rem;
+      font-size: 1rem;
+      font-weight: 500;
     }
   }
 
   h3 {
-    font-size: 2rem;
+    margin-bottom: 0.5rem;
     font-weight: 800;
-    margin-bottom: 1rem;
+    font-size: 1.25rem;
   }
 
   .description {
-    font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 1rem;
   }
 }
 
-.circles1 {
-  position: absolute;
-  z-index: -2;
-  top: 30rem;
-  left: 19rem;
-  width: 100px;
-  height: 100px;
+@media (min-width: 30rem) {
+  .heroWrapper {
+    width: 100%;
+    padding: 5rem 1rem;
 
-  animation: translateY 5s ease-in-out infinite alternate;
+    .heroHeader {
+      grid-template-columns: 0.75fr 1fr;
+      padding: 5em 3em;
+      height: 600px;
 
-  &::after {
-    content: "";
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-    background: black;
-    display: block;
-    position: absolute;
-    left: 28em;
-    top: 4rem;
-    box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
+      .logo {
+        font-size: 3.5rem;
+      }
 
-    animation: translateXreverse 6s ease-in-out infinite alternate;
+      .subtitle {
+        font-size: 1.75rem;
+        font-weight: 600;
+        text-align: end;
+      }
+    }
+
+    h3 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    .description {
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
   }
 
-  &::before {
-    content: "";
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
-    background: black;
-    display: block;
+  .circles1 {
     position: absolute;
-    left: 38em;
-    top: 4rem;
-    box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
+    z-index: -2;
+    top: 30rem;
+    left: 19rem;
+    width: 100px;
+    height: 100px;
 
-    animation: translateX 12s ease-in-out infinite alternate;
-  }
-}
+    animation: translateY 5s ease-in-out infinite alternate;
 
-.circles2 {
-  position: absolute;
-  z-index: -2;
-  top: 15rem;
-  right: 20rem;
-  width: 100px;
-  height: 100px;
+    &::after {
+      content: "";
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+      background: #131316;
+      display: block;
+      position: absolute;
+      left: 28em;
+      top: 4rem;
+      box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
 
-  animation: translateY 9s ease-in-out infinite alternate;
+      animation: translateXreverse 6s ease-in-out infinite alternate;
+    }
 
-  &::after {
-    content: "";
-    width: 14rem;
-    height: 14rem;
-    border-radius: 50%;
-    background: black;
-    display: block;
-    position: absolute;
-    right: 15em;
-    top: -7em;
-    box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
+    &::before {
+      content: "";
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%;
+      background: #131316;
+      display: block;
+      position: absolute;
+      left: 38em;
+      top: 4rem;
+      box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
 
-    animation: translateXreverse 23s ease-in-out infinite alternate;
-  }
-
-  &::before {
-    content: "";
-    width: 10.5rem;
-    height: 10.5rem;
-    border-radius: 50%;
-    background: black;
-    display: block;
-    position: absolute;
-    bottom: -17em;
-    left: -70rem;
-    top: 12rem;
-    box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
-
-    animation: translateX 11s ease-in-out infinite alternate;
-  }
-}
-
-.circles3 {
-  position: absolute;
-  z-index: -2;
-  top: 10rem;
-  left: 20em;
-  width: 100px;
-  height: 100px;
-  background: transparent;
-
-  animation: translateY 8s ease-in-out infinite alternate;
-
-  &::after {
-    content: "";
-    width: 12.5rem;
-    height: 12.5rem;
-    border-radius: 50%;
-    background: black;
-    display: block;
-    position: absolute;
-    box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
-
-    animation: translateX 30s ease-in-out infinite alternate;
+      animation: translateX 12s ease-in-out infinite alternate;
+    }
   }
 
-  &::before {
-    content: "";
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    background: black;
-    display: block;
+  .circles2 {
     position: absolute;
-    box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
+    z-index: -2;
+    top: 15rem;
+    right: 20rem;
+    width: 100px;
+    height: 100px;
 
-    animation: translateXreverse 10s ease-in-out infinite alternate;
+    animation: translateY 9s ease-in-out infinite alternate;
+
+    &::after {
+      content: "";
+      width: 14rem;
+      height: 14rem;
+      border-radius: 50%;
+      background: #131316;
+      display: block;
+      position: absolute;
+      right: 15em;
+      top: -7em;
+      box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
+
+      animation: translateXreverse 23s ease-in-out infinite alternate;
+    }
+
+    &::before {
+      content: "";
+      width: 10.5rem;
+      height: 10.5rem;
+      border-radius: 50%;
+      background: #131316;
+      display: block;
+      position: absolute;
+      bottom: -17em;
+      left: -50rem;
+      top: 12rem;
+      box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
+
+      animation: translateX 11s ease-in-out infinite alternate;
+    }
   }
-}
 
-.circles4 {
-  position: absolute;
-  z-index: -2;
-  top: 28rem;
-  left: 20em;
-  width: 100px;
-  height: 100px;
-  background: transparent;
-
-  animation: translateY 8s ease-in-out infinite alternate;
-
-  &::after {
-    content: "";
-    width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 50%;
-    background: black;
-    display: block;
+  .circles3 {
     position: absolute;
-    box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
+    z-index: -2;
+    top: 10rem;
+    left: 20em;
+    width: 100px;
+    height: 100px;
+    background: transparent;
 
-    animation: translateXreverse 4s ease-in-out infinite alternate;
+    animation: translateY 8s ease-in-out infinite alternate;
+
+    &::after {
+      content: "";
+      width: 12.5rem;
+      height: 12.5rem;
+      border-radius: 50%;
+      background: #131316;
+      display: block;
+      position: absolute;
+      box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
+
+      animation: translateX 30s ease-in-out infinite alternate;
+    }
+
+    &::before {
+      content: "";
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background: #131316;
+      display: block;
+      position: absolute;
+      box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
+
+      animation: translateXreverse 10s ease-in-out infinite alternate;
+    }
   }
 
-  &::before {
-    content: "";
-    width: 7.5rem;
-    height: 7.5rem;
-    border-radius: 50%;
-    background: black;
-    display: block;
+  .circles4 {
     position: absolute;
-    left: 20rem;
-    top: -18rem;
-    box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
+    z-index: -2;
+    top: 28rem;
+    left: 20em;
+    width: 100px;
+    height: 100px;
+    background: transparent;
 
-    animation: translateX 8s ease-in-out infinite alternate;
+    animation: translateY 8s ease-in-out infinite alternate;
+
+    &::after {
+      content: "";
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 50%;
+      background: #131316;
+      display: block;
+      position: absolute;
+      box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
+
+      animation: translateXreverse 4s ease-in-out infinite alternate;
+    }
+
+    &::before {
+      content: "";
+      width: 7.5rem;
+      height: 7.5rem;
+      border-radius: 50%;
+      background: #131316;
+      display: block;
+      position: absolute;
+      left: 20rem;
+      top: -18rem;
+      box-shadow: 0 5px 10px #0005, 0 -5px 5px #fff5, inset 5px 5px 10px #fff5;
+
+      animation: translateX 8s ease-in-out infinite alternate;
+    }
   }
 }
 

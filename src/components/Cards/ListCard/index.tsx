@@ -28,9 +28,8 @@ export function ListCard({ event }: PropsType) {
       <div className={style.speakers}>
         {event.speakers.map((person) => {
           return (
-            <div className={style.speaker}>
+            <div key={person.name} className={style.speaker}>
               <img
-                key={person.name}
                 className={style.avatar}
                 src={person.avatar_url || avatar}
                 alt={person.name || "avatar sem imagem"}
