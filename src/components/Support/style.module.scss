@@ -2,44 +2,32 @@
   width: 100vw;
   background: #ff0f43;
   color: #f1e1e1;
-  transform: translateX(calc((100vw - 1200px) / 2 * -1));
-  display: flex;
-  justify-content: center;
-  padding: 3rem 0;
-  position: relative;
+  overflow: hidden;
+  padding: 1rem 0.65rem;
+  z-index: -2;
 
-  .anchor {
-    position: absolute;
-    top: -5rem;
+  .container {
+    padding-bottom: 2rem;
   }
-}
-
-.container {
-  padding: 1rem;
-  width: 1200px;
-  display: flex;
-  flex-direction: column;
 
   h3 {
+    font-size: 1.25rem;
+    max-width: 90%;
+    text-align: center;
     display: flex;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-    gap: 1.5rem;
-    font-size: 3rem;
-    font-weight: 900;
-    margin-bottom: 1rem;
+    gap: 1rem;
+    margin: 0 auto 2rem;
   }
 
   .logo {
-    width: 8rem;
+    max-width: 100%;
+    display: block;
   }
 
   .about {
-    font-size: 1.25rem;
-    font-weight: 600;
-    padding: 2rem 0;
+    font-weight: 500;
     color: #131316;
+    margin-bottom: 1.5rem;
 
     a {
       text-decoration: none;
@@ -49,10 +37,67 @@
 
   .link {
     font-size: 1.5rem;
-    text-align: end;
 
     span {
       font-weight: 700;
+    }
+  }
+}
+
+@media (min-width: 30rem) {
+  .supportWrapper {
+    transform: translateX(calc((100vw - 1200px) / 2 * -1));
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    position: relative;
+
+    .anchor {
+      position: absolute;
+      top: -5rem;
+    }
+  }
+
+  .container {
+    padding: 1rem;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      align-items: center;
+      gap: 1.5rem;
+      font-size: 3rem;
+      font-weight: 900;
+      margin-bottom: 1rem;
+    }
+
+    .logo {
+      width: 8rem;
+    }
+
+    .about {
+      font-size: 1.25rem;
+      font-weight: 600;
+      padding: 2rem 0;
+      color: #131316;
+
+      a {
+        text-decoration: none;
+        color: #f1e1e1;
+      }
+    }
+
+    .link {
+      font-size: 1.5rem;
+      text-align: end;
+
+      span {
+        font-weight: 700;
+      }
     }
   }
 }
