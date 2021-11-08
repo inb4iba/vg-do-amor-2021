@@ -9,7 +9,7 @@ export function Hero() {
           DO AMOR
         </h1>
         <h2 className={style.subtitle}>
-          O evento de final de ano do vertente geek, á quatro anos criando,
+          O evento de final de ano do vertente geek, há quatro anos criando,
           imaginando e jogando juntos.
         </h2>
       </div>

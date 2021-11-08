@@ -4,6 +4,7 @@ export type LinksType = {
   github?: string;
   site?: string;
   twitch?: string;
+  facebook?: string;
 };
 
 export type PersonType = {

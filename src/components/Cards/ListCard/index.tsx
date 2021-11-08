@@ -6,6 +6,7 @@ import {
   RiTwitterFill,
   RiGithubFill,
   RiTwitchFill,
+  RiFacebookBoxFill,
 } from "react-icons/ri";
 import { IoGlobeOutline } from "react-icons/io5";
 
@@ -51,6 +52,9 @@ export function ListCard({ event }: PropsType) {
                           <RiInstagramFill size={30} />
                         )}
                         {linkName === "twitter" && <RiTwitterFill size={30} />}
+                        {linkName === "facebook" && (
+                          <RiFacebookBoxFill size={30} />
+                        )}
                         {linkName === "github" && <RiGithubFill size={30} />}
                         {linkName === "twitch" && <RiTwitchFill size={30} />}
                         {linkName === "site" && <IoGlobeOutline size={30} />}

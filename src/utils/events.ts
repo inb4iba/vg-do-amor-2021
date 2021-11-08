@@ -6,9 +6,11 @@ export const events = [
     speakers: [
       {
         name: "Mestre Xis",
-        avatar_url:
-          "https://pbs.twimg.com/profile_images/1356066597274836999/GCZ9UCIy_400x400.jpg",
-        links: {},
+        avatar_url: "https://i.imgur.com/J7IbBS5.png",
+        links: {
+          twitch: "https://www.twitch.tv/mestre_xis/",
+          twitter: "https://twitter.com/mestre_xis",
+        },
       },
     ],
   },
@@ -19,8 +21,7 @@ export const events = [
     speakers: [
       {
         name: "Icaro Andrade",
-        avatar_url:
-          "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
+        avatar_url: "https://i.imgur.com/LRAOxSb.png",
         links: {
           twitch: "https://www.twitch.tv/vertentegeek/",
           twitter: "https://twitter.com/inb4iba",
@@ -35,9 +36,11 @@ export const events = [
     speakers: [
       {
         name: "Ray Galvão",
-        avatar_url:
-          "https://pbs.twimg.com/profile_images/1445468705920483335/YJQNUJ9W_400x400.jpg",
-        links: {},
+        avatar_url: "https://i.imgur.com/nCBF5FY.png",
+        links: {
+          twitch: "https://www.twitch.tv/raygalvao/",
+          twitter: "https://twitter.com/rayraygalvao",
+        },
       },
     ],
   },
@@ -54,15 +57,17 @@ export const events = [
     ],
   },
   {
-    title: "-----",
+    title: "Instrumentos narrativos.",
     date: "09/11",
     time: "14h",
     speakers: [
       {
         name: "Mônica de Faria",
-        avatar_url:
-          "https://pbs.twimg.com/profile_images/1451919788465430528/iX9d7qPo_400x400.jpg",
-        links: {},
+        avatar_url: "https://i.imgur.com/T8LuoZk.png",
+        links: {
+          twitch: "https://www.twitch.tv/jogoseimaginarios",
+          twitter: "https://twitter.com/monica_defaria",
+        },
       },
     ],
   },
@@ -73,9 +78,11 @@ export const events = [
     speakers: [
       {
         name: "Luiza Ferreira",
-        avatar_url:
-          "https://pbs.twimg.com/profile_images/1443023315895996418/S_dbpPzS_400x400.jpg",
-        links: {},
+        avatar_url: "https://i.imgur.com/AFdkVRn.png",
+        links: {
+          twitch: "https://www.twitch.tv/luluzinha",
+          twitter: "https://twitter.com/aluluzinha_",
+        },
       },
     ],
   },
@@ -93,15 +100,17 @@ export const events = [
     ],
   },
   {
-    title: "-----",
+    title: "Criatividade na hora de escrever.",
     date: "10/11",
     time: "14h",
     speakers: [
       {
         name: "Luiz Lindroth",
-        avatar_url:
-          "https://pbs.twimg.com/profile_images/1450205546100011013/BXOVayYX_400x400.jpg",
-        links: {},
+        avatar_url: "https://i.imgur.com/ZoGTZ15.png",
+        links: {
+          twitch: "https://www.twitch.tv/dadosecontracapas",
+          twitter: "https://twitter.com/LPLindroth",
+        },
       },
     ],
   },
@@ -118,41 +127,43 @@ export const events = [
     ],
   },
   {
-    title: "-----",
+    title: "",
     date: "11/11",
     time: "09h",
     speakers: [
       {
-        name: "Mônica de Faria",
-        avatar_url:
-          "https://pbs.twimg.com/profile_images/1451919788465430528/iX9d7qPo_400x400.jpg",
+        name: "",
+        avatar_url: "",
         links: {},
       },
     ],
   },
   {
-    title: "-----",
+    title: "Cogito, sistema, mundo e sua jornada indie para existir.",
     date: "11/11",
     time: "14h",
     speakers: [
       {
         name: "Carlos Vloet",
-        avatar_url:
-          "https://pbs.twimg.com/profile_images/1181982504493953024/t_NFmzaA_400x400.jpg",
-        links: {},
+        avatar_url: "https://i.imgur.com/kOqUaRm.png",
+        links: {
+          facebook: "https://pt-br.facebook.com/npcsrpg/",
+        },
       },
     ],
   },
   {
-    title: "-----",
+    title: "Adventures League BR, o jogo organizado de D&D no Brasil.",
     date: "11/11",
     time: "19h",
     speakers: [
       {
         name: "Rafael Amon",
-        avatar_url:
-          "https://pbs.twimg.com/profile_images/1304462415833243648/rW4T5_h6_400x400.jpg",
-        links: {},
+        avatar_url: "https://i.imgur.com/tss7Knl.png",
+        links: {
+          twitch: "https://www.twitch.tv/perdidosnoplay",
+          twitter: "https://twitter.com/Rafael_Amon",
+        },
       },
     ],
   },
@@ -175,9 +186,10 @@ export const events = [
     speakers: [
       {
         name: "Thiago Rosa",
-        avatar_url:
-          "https://pbs.twimg.com/profile_images/1414972367625936899/44B-6pZi_400x400.jpg",
-        links: {},
+        avatar_url: "https://i.imgur.com/9ys7DEJ.png",
+        links: {
+          twitter: "https://twitter.com/true_shinken",
+        },
       },
     ],
   },
