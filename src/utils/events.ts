@@ -45,18 +45,6 @@ export const events = [
     ],
   },
   {
-    title: "",
-    date: "09/11",
-    time: "09h",
-    speakers: [
-      {
-        name: "",
-        avatar_url: "",
-        links: {},
-      },
-    ],
-  },
-  {
     title: "Instrumentos narrativos.",
     date: "09/11",
     time: "14h",
@@ -87,19 +75,6 @@ export const events = [
     ],
   },
   {
-    title: "",
-    date: "10/11",
-    time: "09h",
-    speakers: [
-      {
-        name: "",
-        avatar_url: "",
-        description: "",
-        links: {},
-      },
-    ],
-  },
-  {
     title: "Criatividade na hora de escrever.",
     date: "10/11",
     time: "14h",
@@ -111,30 +86,6 @@ export const events = [
           twitch: "https://www.twitch.tv/dadosecontracapas",
           twitter: "https://twitter.com/LPLindroth",
         },
-      },
-    ],
-  },
-  {
-    title: "",
-    date: "10/11",
-    time: "19h",
-    speakers: [
-      {
-        name: "",
-        avatar_url: "",
-        links: {},
-      },
-    ],
-  },
-  {
-    title: "",
-    date: "11/11",
-    time: "09h",
-    speakers: [
-      {
-        name: "",
-        avatar_url: "",
-        links: {},
       },
     ],
   },
@@ -168,18 +119,6 @@ export const events = [
     ],
   },
   {
-    title: "",
-    date: "12/11",
-    time: "09h",
-    speakers: [
-      {
-        name: "",
-        avatar_url: "",
-        links: {},
-      },
-    ],
-  },
-  {
     title: "-----",
     date: "12/11",
     time: "14h",
@@ -190,18 +129,6 @@ export const events = [
         links: {
           twitter: "https://twitter.com/true_shinken",
         },
-      },
-    ],
-  },
-  {
-    title: "",
-    date: "12/11",
-    time: "19h",
-    speakers: [
-      {
-        name: "",
-        avatar_url: "",
-        links: {},
       },
     ],
   },
