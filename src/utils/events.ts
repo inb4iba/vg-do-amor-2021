@@ -119,7 +119,7 @@ export const events = [
     ],
   },
   {
-    title: "-----",
+    title: "Você (não) vai fazer um jogo datado: tendências contemporâneas (e outras nem tanto) do design de RPG de mesa.",
     date: "12/11",
     time: "14h",
     speakers: [
