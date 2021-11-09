@@ -47,7 +47,7 @@ export const events = [
   {
     title: "Instrumentos narrativos.",
     date: "09/11",
-    time: "14h",
+    time: "15h",
     speakers: [
       {
         name: "Mônica de Faria",
@@ -62,7 +62,7 @@ export const events = [
   {
     title: "Linguagem e política no RPG.",
     date: "09/11",
-    time: "19h",
+    time: "20h",
     speakers: [
       {
         name: "Luiza Ferreira",
