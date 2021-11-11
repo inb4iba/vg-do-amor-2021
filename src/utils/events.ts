@@ -92,7 +92,7 @@ export const events = [
   {
     title: "Cogito, sistema, mundo e sua jornada indie para existir.",
     date: "11/11",
-    time: "14h",
+    time: "15h",
     speakers: [
       {
         name: "Carlos Vloet",
@@ -106,7 +106,7 @@ export const events = [
   {
     title: "Adventures League BR, o jogo organizado de D&D no Brasil.",
     date: "11/11",
-    time: "19h",
+    time: "21h",
     speakers: [
       {
         name: "Rafael Amon",
