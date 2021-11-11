@@ -110,7 +110,7 @@ export const events = [
     speakers: [
       {
         name: "Rafael Amon",
-        avatar_url: "https://i.imgur.com/tss7Knl.png",
+        avatar_url: "https://i.imgur.com/0TPJubU.jpeg",
         links: {
           twitch: "https://www.twitch.tv/perdidosnoplay",
           twitter: "https://twitter.com/Rafael_Amon",
